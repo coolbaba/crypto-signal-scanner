@@ -7,6 +7,7 @@ import Dashboard from './components/Dashboard';
 import SignalScanner from './components/SignalScanner';
 import Portfolio from './components/Portfolio';
 import MarketAnalysis from './components/MarketAnalysis';
+import SignalDashboard from './components/SignalDashboard';
 import Navigation from './components/Navigation';
 import Header from './components/Header';
 
@@ -34,6 +35,7 @@ function App() {
             <Route path="/signals" element={<SignalScanner />} />
             <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/analysis" element={<MarketAnalysis />} />
+            <Route path="/live-signals" element={<SignalDashboard />} />
           </Routes>
         </main>
 
